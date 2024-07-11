@@ -36,21 +36,9 @@ USBGuard significantly bolsters your system's defenses against USB-based threats
 - Integrates with the Linux kernel's USB subsystem
 - Provides low-level control over USB device authorization
 
-### 7. Auditing and Logging
-- Log USB device events
-- Enable security audits and forensic analysis of USB device usage
-
 ### 8. Granular Control
 - Create rules based on various device attributes
 - Allow for very specific and granular control over permitted devices
-
-### 9. Protection Against Accidental Data Loss
-- Control which USB storage devices are allowed
-- Prevent accidental data transfers to unauthorized devices
-
-### 10. Compliance Support
-- Help maintain compliance with policies that restrict USB device usage
-- Beneficial for organizations with strict security requirements
 
 # Run the script
 ```bash
