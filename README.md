@@ -48,11 +48,20 @@ Follow the on-screen prompts to manage your USB devices.
 
 ## Menu Options
 
+¯\_(ツ)_/¯![main_menu](./Screenshots/main_menu.png)
+
 1. **Check USBGuard Installation**: Verifies if USBGuard is installed on your system.
+
 2. **Setup USBGuard**: Generates a basic policy and enables the USBGuard service.
+
 3. **List USB Devices**: Displays all connected USB devices and their current status (allowed/blocked).
+
 4. **Allow a Device**: Allows you to select and authorize blocked USB devices.
+
 5. **Block a Device**: Allows you to select and block currently allowed USB devices.
+
+   ![block_device_menu](./Screenshots/block_device_menu.png)
+
 6. **Exit**: Quits the script.
 
 ## Notes
