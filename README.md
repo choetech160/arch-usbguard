@@ -6,31 +6,56 @@ into all the daemon configuration options either.
 
 ## What is USBGuard and how can it help protect my device
 
-USBGuard can significantly enhance your system's security against USB-based threats in several ways:
-Device Whitelisting/Blacklisting:
-USBGuard allows you to create rules that explicitly allow (whitelist) or block (blacklist) USB devices based on various attributes like vendor ID, product ID, serial number, etc.
-This prevents unauthorized or potentially malicious USB devices from accessing your system.
-Protection Against Rogue USB Devices:
-It helps defend against attacks like BadUSB, where seemingly innocent USB devices can masquerade as keyboards or other trusted devices to inject malicious commands.
-By strictly controlling which devices are allowed, USBGuard mitigates risks from maliciously reprogrammed USB devices.
-Data Exfiltration Prevention:
-You can block unauthorized USB storage devices, preventing sensitive data from being copied onto external drives without permission.
-Dynamic Device Control:
-USBGuard allows real-time management of USB devices. You can allow or block devices on-the-fly as they are connected or disconnected.
-Policy-Driven Security:
-It enables the implementation of comprehensive USB device usage policies, which can be crucial in high-security environments.
-System Integration:
-USBGuard integrates with the Linux kernel's USB subsystem, providing low-level control over USB device authorization.
-Auditing and Logging:
-It can log USB device events, allowing for security audits and forensic analysis of USB device usage.
-Granular Control:
-Rules can be based on various device attributes, allowing for very specific and granular control over which devices are allowed.
-Protection Against Accidental Data Loss:
-By controlling which USB storage devices are allowed, it can help prevent accidental data transfers to unauthorized devices.
-Compliance Support:
-For organizations with strict security requirements, USBGuard can help maintain compliance with policies that restrict USB device usage.
+USBGuard significantly bolsters your system's defenses against USB-based threats through various mechanisms:
 
+### 1. Device Whitelisting/Blacklisting
+- Create rules to explicitly allow or block USB devices based on attributes like:
+  - Vendor ID
+  - Product ID
+  - Serial number
+- Prevent unauthorized or potentially malicious USB devices from accessing your system
 
+### 2. Protection Against Rogue USB Devices
+- Defend against attacks like BadUSB
+  - Prevents innocent-looking USB devices from masquerading as trusted devices (e.g., keyboards)
+  - Mitigates risks from maliciously reprogrammed USB devices
+
+### 3. Data Exfiltration Prevention
+- Block unauthorized USB storage devices
+- Prevent sensitive data from being copied to external drives without permission
+
+### 4. Dynamic Device Control
+- Manage USB devices in real-time
+- Allow or block devices on-the-fly as they are connected or disconnected
+
+### 5. Policy-Driven Security
+- Implement comprehensive USB device usage policies
+- Crucial for high-security environments
+
+### 6. System Integration
+- Integrates with the Linux kernel's USB subsystem
+- Provides low-level control over USB device authorization
+
+### 7. Auditing and Logging
+- Log USB device events
+- Enable security audits and forensic analysis of USB device usage
+
+### 8. Granular Control
+- Create rules based on various device attributes
+- Allow for very specific and granular control over permitted devices
+
+### 9. Protection Against Accidental Data Loss
+- Control which USB storage devices are allowed
+- Prevent accidental data transfers to unauthorized devices
+
+### 10. Compliance Support
+- Help maintain compliance with policies that restrict USB device usage
+- Beneficial for organizations with strict security requirements
+
+# Run the script
+```bash
+./configure.sh
+```
 Follow the on-screen prompts to manage your USB devices.
 
 ## Menu Options
