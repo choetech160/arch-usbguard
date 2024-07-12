@@ -48,7 +48,7 @@ Follow the on-screen prompts to manage your USB devices.
 
 ## Menu Options
 
-¯\_(ツ)_/¯![main_menu](./Screenshots/main_menu.png)
+![main_menu](./Screenshots/main_menu.png)
 
 1. **Check USBGuard Installation**: Verifies if USBGuard is installed on your system.
 
